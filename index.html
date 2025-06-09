@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LevelUp Beauty Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>LevelUp Beauty Studio</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#book">Prendre RDV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h2>Rehausse ton style, version LevelUp.</h2>
+    <button onclick="document.getElementById('book').scrollIntoView()">Prendre rendez-vous</button>
+  </section>
+
+  <section id="services">
+    <h3>Nos services</h3>
+    <ul>
+      <li><strong>Coloration</strong> – cheveux pastel, flashy ou naturel</li>
+      <li><strong>Coupe</strong> – courte, longue, dégradée</li>
+      <li><strong>Taille de barbe</strong> – soignée et stylisée</li>
+    </ul>
+  </section>
+
+  <section id="book">
+    <h3>Prendre un rendez-vous</h3>
+    <form>
+      <label for="name">Nom :</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="service">Service :</label>
+      <select id="service" name="service">
+        <option value="coloration">Coloration</option>
+        <option value="coupe">Coupe</option>
+        <option value="barbe">Taille de barbe</option>
+      </select>
+
+      <label for="date">Date :</label>
+      <input type="date" id="date" name="date" required />
+
+      <button type="submit">Réserver</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h3>Nous contacter</h3>
+    <p>Adresse : 123 rue Pixel, Ottawa</p>
+    <p>Email : contact@levelupbeauty.ca</p>
+  </section>
+
+  <footer>
+    <p>Conçu par Yasmine Bziouid © 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

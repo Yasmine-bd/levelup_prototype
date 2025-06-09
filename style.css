@@ -1,0 +1,52 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #FFF4F8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #FBA1B7;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 1em;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  padding: 2em;
+}
+
+#hero {
+  background-color: #FFE5EC;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  max-width: 400px;
+}
+
+button {
+  background-color: #F472B6;
+  color: white;
+  border: none;
+  padding: 0.7em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #FBA1B7;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
